@@ -1,0 +1,91 @@
+{
+  "kind": "collectionType",
+  "collectionName": "books",
+  "info": {
+    "singularName": "book",
+    "pluralName": "books",
+    "displayName": "Book",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bookName": {
+      "type": "string"
+    },
+    "shortSummary": {
+      "type": "string"
+    },
+    "longSummary": {
+      "type": "text"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "genre": {
+      "type": "enumeration",
+      "enum": [
+        "mystery",
+        "fantasy",
+        "fiction",
+        "history",
+        "scienceFiction",
+        "adventure",
+        "horror",
+        "thriller",
+        "biography",
+        "psychology",
+        "non-fiction"
+      ]
+    },
+    "awards": {
+      "type": "enumeration",
+      "enum": [
+        "newArrivals2024",
+        "bestSellers2023",
+        "topRatedAllTime",
+        "newYorkBestSeller",
+        "pulitzerPrize",
+        "americaAward",
+        "fictionAwards",
+        "newberyMedal",
+        "bookerPrize",
+        "nobelPrizeinLiterature",
+        "internationalBotevPrize",
+        "parisLiteraryPrize",
+        "wallStreetJournalBestSeller",
+        "barnesAndNobleBest2022"
+      ]
+    },
+    "bookPDF": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "author": {
+      "type": "string"
+    },
+    "starRating": {
+      "type": "decimal"
+    }
+  }
+}
