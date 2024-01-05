@@ -38,17 +38,17 @@
     "genre": {
       "type": "enumeration",
       "enum": [
-        "mystery",
-        "fantasy",
-        "fiction",
-        "history",
-        "scienceFiction",
-        "adventure",
-        "horror",
-        "thriller",
-        "biography",
-        "psychology",
-        "non-fiction"
+        "Mystery",
+        "Fantasy",
+        "Fiction",
+        "History",
+        "Science Fiction",
+        "Adventure",
+        "Horror",
+        "Thriller",
+        "Biography",
+        "Psychology",
+        "Non-Fiction"
       ]
     },
     "awards": {

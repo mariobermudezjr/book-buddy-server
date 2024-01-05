@@ -787,17 +787,17 @@ export interface ApiBookBook extends Schema.CollectionType {
     image: Attribute.Media;
     genre: Attribute.Enumeration<
       [
-        'mystery',
-        'fantasy',
-        'fiction',
-        'history',
-        'scienceFiction',
-        'adventure',
-        'horror',
-        'thriller',
-        'biography',
-        'psychology',
-        'non-fiction'
+        'Mystery',
+        'Fantasy',
+        'Fiction',
+        'History',
+        'Science Fiction',
+        'Adventure',
+        'Horror',
+        'Thriller',
+        'Biography',
+        'Psychology',
+        'Non-Fiction'
       ]
     >;
     awards: Attribute.Enumeration<

@@ -10,4 +10,7 @@ Shows list of available node versions using node version manager (nvm)
 > > If you have not set this up you will need to uninstall earlier versions and install 18 or greater.
 > > `nvm use 18.17.1`
 > > Now using node v18.17.1 (npm v9.6.7)
-> > `npm start`
+
+1. `npm start` // Start Production Server: Cannot Edit Fields during production.
+
+2. `npm run develop` // Start Dev Server: Be able to edit the fields in dev mode.
