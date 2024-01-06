@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "esModuleInterop": false,
     "moduleResolution": "nodenext",
     "target": "ES2021",
     "checkJs": true,
